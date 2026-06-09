@@ -67,14 +67,44 @@ eas build -p android --profile preview
 * Authentication System
 * Product Catalog
 * Cart Management
-* Wishlist
+* Wishlist Management
 * Checkout System
 * Address Management
 * Order Management
 * Admin Dashboard
 * Product CRUD Operations
 * Order Status Management
-* Image Upload Integration
+* Cloudinary Image Upload Integration
+
+## Screenshots
+
+### Home Screen
+
+![Home Screen](assets/screenshots/Home.png)
+
+### Product Details
+
+![Product Details](assets/screenshots/Product.png)
+
+### Cart
+
+![Cart](assets/screenshots/Cart.png)
+
+### Orders
+
+![Orders](assets/screenshots/Order.png)
+
+### Admin Add Product
+
+![Admin Add Product](assets/screenshots/Admin-addproduct.png)
+
+### Admin Manage Orders
+
+![Admin Manage Orders](assets/screenshots/Admin-manage%20order.png)
+
+### Profile
+
+![Profile](assets/screenshots/Profile.png)
 
 ## Future Improvements
 
