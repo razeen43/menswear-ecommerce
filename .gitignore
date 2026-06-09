@@ -41,3 +41,16 @@ app-example
 # generated native folders
 /ios
 /android
+
+# environment files
+.env
+.env.*
+
+# expo
+.expo-shared
+
+# eas
+eas-build-local-cache
+
+# logs
+*.log
