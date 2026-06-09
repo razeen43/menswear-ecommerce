@@ -84,6 +84,12 @@ eas build -p android --profile preview
 * Push Notifications
 * Order Tracking
 
+## Download APK
+
+Download the latest Android APK:
+
+https://github.com/razeen43/menswear-ecommerce/releases/latest
+
 ## Author
 
 Muhammad Razeen
