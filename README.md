@@ -1,50 +1,91 @@
-# Welcome to your Expo app 👋
+# Menswear E-Commerce App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A full-stack e-commerce mobile application built using React Native, Expo, Firebase, Firestore, Redux Toolkit, and Cloudinary.
 
-## Get started
+## Features
 
-1. Install dependencies
+### Customer Features
 
-   ```bash
-   npm install
-   ```
+* User Authentication (Login & Register)
+* Product Search
+* Product Details
+* Shopping Cart
+* Wishlist
+* Shipping Address Management
+* Checkout
+* Order History
+* Cash on Delivery (COD)
 
-2. Start the app
+### Admin Features
 
-   ```bash
-   npx expo start
-   ```
+* Admin Authentication
+* Add Products
+* Edit Products
+* Delete Products
+* Manage Orders
+* Update Order Status
+* View Customer Details and Shipping Address
 
-In the output, you'll find options to open the app in a
+## Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* React Native
+* Expo Router
+* TypeScript
+* Firebase Authentication
+* Firestore Database
+* Redux Toolkit
+* Cloudinary Image Upload
+* Expo EAS Build
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Project Structure
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```txt
+app/
+src/
+ ├── components
+ ├── screens
+ ├── services
+ ├── store
+ └── utils
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Installation
 
-## Learn more
+```bash
+npm install
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## Build APK
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+eas build -p android --profile preview
+```
 
-## Join the community
+## Features Implemented
 
-Join our community of developers creating universal apps.
+* Authentication System
+* Product Catalog
+* Cart Management
+* Wishlist
+* Checkout System
+* Address Management
+* Order Management
+* Admin Dashboard
+* Product CRUD Operations
+* Order Status Management
+* Image Upload Integration
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Future Improvements
+
+* Razorpay Online Payments
+* Product Reviews & Ratings
+* Coupon System
+* Push Notifications
+* Order Tracking
+
+## Author
+
+Muhammad Razeen
+
+GitHub: https://github.com/razeen43
